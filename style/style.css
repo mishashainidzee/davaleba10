@@ -1,0 +1,182 @@
+.box {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: 1100px;
+}
+
+.box > div {
+  text-align: center;
+  margin: 20px;
+}
+
+.city {
+  margin-left: 250px;
+  position: absolute;
+}
+
+.dis {
+  margin-left: 700px;
+  margin-top: 238px;
+  position: absolute;
+  /* Discover Greece */
+
+  position: absolute;
+  width: 625px;
+  height: 91px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 79px;
+  line-height: 91px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.cover {
+  position: absolute;
+  margin-left: 800px;
+  margin-top: 333px;
+  position: absolute;
+  width: 333px;
+  height: 22px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.PP {
+  position: absolute;
+  width: 89px;
+  height: 20px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #636060;
+
+  margin-top: 704px;
+  margin-left: 350px;
+}
+
+.pi {
+  /* Our Hot Services */
+
+  position: absolute;
+  width: 214px;
+  height: 32px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+
+  color: #010101;
+
+  margin-top: 734px;
+  margin-left: 350px;
+}
+
+.hi {
+  /* We hope you can visit and ths beautiful places with your friend and favorite So you can share your feedback to us */
+
+  position: absolute;
+  width: 235px;
+  height: 115px;
+  display: flex;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #636060;
+  margin-left: 350px;
+  margin-top: 800px;
+}
+
+.sky {
+  margin-top: 800px;
+  margin-left: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sky > div {
+  margin-left: 50px;
+  margin-bottom: 200px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.hey {
+  align-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -630px;
+  margin-left: 670px;
+}
+
+.hey > div {
+  width: 259px;
+  height: 420px;
+  position: relative;
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  color: #343232;
+  margin-left: 80px;
+}
+
+.purple {
+  width: 70px;
+  position: absolute;
+}
+
+.text {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 750px;
+  margin-top: -800px;
+}
+
+.text > div {
+  width: 340px;
+  height: 420px;
+
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #636060;
+}
+
+@media only screen and (max-width: 700px) {
+  .all {
+    margin-left: -300px;
+  }
+}
+
+.bar {
+  position: absolute;
+  top: 37px;
+  right: 170px;
+  width: 50px;
+}
